@@ -1,0 +1,184 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="lt.appcamp.stanleybet"
+    android:background="@color/black">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sb_live_top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="B 2.28 2 \n Maccabi Tel Aviv \n Basel"
+            android:id="@+id/textView"
+            android:padding="@dimen/margin" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:src="@color/white"
+            android:layout_margin="@dimen/margin_small"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B 2.28 2 \Ajax \n Salzburg"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView2"
+            android:padding="@dimen/margin" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:src="@color/white"
+            android:layout_margin="@dimen/margin_small"
+            android:id="@+id/imageView3" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="SYSTEM"
+                android:id="@+id/textView3"
+                android:padding="@dimen/margin" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_small">
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/second_bet1"
+                    android:text="Add all"
+                    android:layout_gravity="center"
+                    android:background="@drawable/sb_button_red"
+                    android:layout_marginRight="@dimen/margin_macro"
+                    android:paddingLeft="@dimen/margin_small"
+                    android:layout_weight="4"
+                    android:layout_marginLeft="@dimen/margin" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:singleLine="false"
+                    android:phoneNumber="false"
+                    android:password="false"
+                    android:layout_weight="1"
+                    android:padding="@dimen/margin_small"
+                    android:layout_marginLeft="64dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.1dp"
+                android:id="@+id/imageView"
+                android:src="@color/white"
+                android:layout_margin="@dimen/margin_small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_small">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/second_bet2"
+                    android:text="Singles"
+                    android:layout_gravity="center"
+                    android:background="@drawable/sb_button_red"
+                    android:layout_marginRight="@dimen/margin_macro"
+                    android:layout_weight="4"
+                    android:layout_marginLeft="@dimen/margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="64dp"
+                    android:padding="@dimen/margin_small" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:src="@color/white"
+                android:layout_margin="@dimen/margin_small" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_small">
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/second_bet3"
+                    android:text="Doubles"
+                    android:layout_gravity="center"
+                    android:background="@drawable/sb_button_red"
+                    android:layout_marginRight="@dimen/margin_macro"
+                    android:layout_weight="4"
+                    android:layout_marginLeft="@dimen/margin" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="64dp"
+                    android:padding="@dimen/margin_small" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:src="@color/white"
+                android:layout_margin="@dimen/margin_small" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/fragment_name"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

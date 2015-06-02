@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TabHost
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tabHost"
+        android:measureAllChildren="false">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@color/sb_menu_background">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tabStripEnabled="false"
+                android:baselineAligned="false"
+                android:background="@color/black_overlay"
+                android:measureWithLargestChild="false"
+                android:orientation="horizontal" />
+
+
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lg_featured_scroll"
+                    android:fillViewport="true">
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/country_list"
+                        android:listSelector="@drawable/sb_menu_selector"/>
+                </ScrollView>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lg_favorites_scroll"
+                    android:fillViewport="true">
+
+                    <ListView
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lg_favorites_list"
+                        android:layout_alignParentLeft="true"
+                        android:choiceMode="singleChoice"
+                        android:scrollingCache="true"/>
+                </ScrollView>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lg_today_scroll"
+                    android:fillViewport="true">
+                    <ListView
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lg_today_list"
+                        android:layout_alignParentLeft="true"
+                        android:choiceMode="singleChoice"
+                        android:layout_marginBottom="40dp"
+                        android:scrollingCache="true" />
+                </ScrollView>
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lg_next3h_scroll"
+                    android:fillViewport="true">
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/lg_next3h_list"
+                        android:layout_alignParentLeft="true"
+                        android:choiceMode="singleChoice"
+                        android:layout_marginBottom="40dp"
+                        android:scrollingCache="true"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:smoothScrollbar="true"/>
+                </ScrollView>
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </TabHost>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_bottom"
+        android:paddingTop="0.2dp"
+        android:src="@drawable/sb_list_bottom"
+        android:scaleType="centerCrop">
+    </ImageView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="sb_grey">#434A51</color>
+    <color name="sb_red">#66000000</color>
+    <color name="sb_menu_item_top">#485057</color>
+    <color name="sb_menu_item_bottom">#3B464C</color>
+    <color name="sb_red_buttom_item_top">#CC091D</color>
+    <color name="sb_red_buttom_item_bottom">#960515</color>
+    <color name="sb_text_green">#559026</color>
+    <color name="sb_dark_grey">#1A1F24</color>
+    <color name="sb_text_light_grey">#88888A</color>
+    <color name="sb_slide_top">#ff464f55</color>
+    <color name="sb_slide_bottom">#ff33393e</color>
+
+    <color name="sb_seperator">#ff181d22</color>
+    <color name="sb_menu_background">#3d464b</color>
+
+    <!-- Semi-transparent color -->
+    <color name="semi_transparent_black_75">#C0000000</color> <!-- Black 75% -->
+    <color name="semi_transparent_black_50">#80000000</color> <!-- Black 50% -->
+    <color name="semi_transparent_black_25">#30000000</color> <!-- Black 50% -->
+
+    <!-- User login colors -->
+    <color name="sb_input_color">#ff232d33</color>
+    <color name="sb_input_hint_color">#ff747779</color>
+    <color name="sb_button_no_background_color">#ff606568</color>
+    <color name="sb_login_background_color">#ff2f363b</color>
+    <color name="sb_login_chexbox_background_color">#41464c</color>
+    <color name="sb_login_chexbox_text_color">#ff737677</color>
+
+
+    <!-- Buttons  colors-->
+    <color name="sb_button_grey_top">#ff6d787d</color>
+    <color name="sb_button_grey_bottom">#ff4c565a</color>
+    <color name="sb_button_grey_border">#ff23292e</color>
+
+
+</resources>

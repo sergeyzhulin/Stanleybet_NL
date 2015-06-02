@@ -1,0 +1,151 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="lt.appcamp.stanleybet"
+    android:background="@color/sb_login_background_color"
+    android:padding="@dimen/margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/first_name"
+        android:background="@drawable/sb_text_input_white"
+        android:textSize="18sp"
+        android:textColor="@color/sb_input_color"
+        android:hint="@string/sb_new_account_input_name"
+        android:padding="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColorHint="@color/sb_input_hint_color" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:id="@+id/surname"
+        android:background="@drawable/sb_text_input_white"
+        android:textSize="18sp"
+        android:textColor="@color/sb_input_color"
+        android:hint="@string/sb_new_account_input_surname"
+        android:padding="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColorHint="@color/sb_input_hint_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="date"
+        android:id="@+id/birth_date"
+        android:background="@drawable/sb_text_input_white"
+        android:textSize="18sp"
+        android:textColor="@color/sb_input_color"
+        android:hint="@string/sb_new_account_input_birth"
+        android:padding="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColorHint="@color/sb_input_hint_color" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:id="@+id/email"
+        android:background="@drawable/sb_text_input_white"
+        android:textSize="18sp"
+        android:textColor="@color/sb_input_color"
+        android:hint="@string/sb_new_account_input_email"
+        android:padding="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColorHint="@color/sb_input_hint_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/email_confirm"
+        android:background="@drawable/sb_text_input_white"
+        android:textSize="18sp"
+        android:textColor="@color/sb_input_color"
+        android:hint="@string/sb_new_account_input_confirm_email"
+        android:padding="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColorHint="@color/sb_input_hint_color" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:id="@+id/username"
+        android:background="@drawable/sb_text_input_white"
+        android:textSize="18sp"
+        android:textColor="@color/sb_input_color"
+        android:hint="@string/sb_new_account_input_username"
+        android:padding="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColorHint="@color/sb_input_hint_color" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:id="@+id/user_password"
+        android:background="@drawable/sb_text_input_white"
+        android:textSize="18sp"
+        android:textColor="@color/sb_input_color"
+        android:hint="@string/sb_new_account_input_password"
+        android:padding="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColorHint="@color/sb_input_hint_color" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/user_password_confirm"
+        android:background="@drawable/sb_text_input_white"
+        android:textSize="18sp"
+        android:textColor="@color/sb_input_color"
+        android:hint="@string/sb_new_account_input_confirm_password"
+        android:padding="@dimen/margin_mid"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColorHint="@color/sb_input_hint_color" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sb_new_account_checkbox_show_password"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:textColor="@color/sb_button_no_background_color"
+        android:button="@drawable/sb_checkedtextview_selector"/>
+
+</LinearLayout>
+

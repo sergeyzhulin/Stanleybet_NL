@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/live_betting"
+    android:orientation="vertical"
+    tools:context="lt.appcamp.stanleybet.fragments.MainScreenFragment"
+    android:background="@color/sb_dark_grey"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sb_live_top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/live_light"
+            android:padding="@dimen/margin_macro"
+            android:layout_marginLeft="@dimen/margin_small" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="LIVE GAMES"
+            android:id="@+id/textView"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:textColor="@color/sb_text_green"
+            android:textSize="15sp"
+            android:padding="@dimen/margin_macro"
+            android:paddingTop="@dimen/margin"
+            android:layout_gravity="center_vertical"
+            android:typeface="normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ice hockey > Russia > KHL"
+            android:id="@+id/textView2"
+            android:textColor="@color/sb_text_light_grey"
+            android:textSize="13sp"
+            android:padding="@dimen/margin_macro"
+            android:paddingRight="@dimen/margin"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/margin_small" />
+    </FrameLayout>
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/imageButton"
+        android:background="@color/sb_seperator" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/match_team_home"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Nantes 2"
+            android:paddingRight="@dimen/margin"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/vs"
+            android:layout_marginTop="@dimen/border_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/match_team_guests"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Tornosia"
+            android:paddingLeft="@dimen/margin"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_goals"
+            android:textSize="60sp"
+            android:text="0"
+            android:padding="@dimen/margin_small"
+            android:layout_marginRight="24dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin_small">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/match_time"
+                android:text="16:20"
+                android:layout_gravity="center"
+                android:textColor="@color/sb_text_light_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/half_txt"
+                android:text="1st period"
+                android:layout_gravity="center"
+                android:textColor="@color/sb_text_light_grey" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/game_stats"
+                android:text="(0-0) (x-x)(x-x)"
+                android:layout_gravity="center"
+                android:textColor="@color/sb_text_light_grey" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/away_goals"
+            android:textSize="60sp"
+            android:text="0"
+            android:padding="@dimen/margin_small"
+            android:layout_marginLeft="24dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/first_bet"
+            android:text="1   1.77"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/sb_button_red"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_macro"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/second_bet"
+            android:text="     x      "
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/sb_button_red"
+            android:layout_marginRight="@dimen/margin_macro"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/third_bet"
+            android:text="2   5.50"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/sb_button_red"
+            android:layout_marginRight="@dimen/margin_small"
+            android:focusableInTouchMode="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

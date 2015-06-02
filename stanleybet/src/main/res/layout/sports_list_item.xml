@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    package="lt.appcamp.stanleybet"
+    android:background="@drawable/sb_menu_item">
+
+    <ImageView
+        android:id="@+id/sport_image"
+        android:padding="@dimen/margin_small"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/fav_icon"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/sport_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_alignParentLeft="true"
+        android:text="Track 1"
+        android:lines="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="@dimen/margin_small"
+        android:textAlignment="viewEnd"
+        android:gravity="center_vertical|clip_horizontal" />
+
+</LinearLayout>

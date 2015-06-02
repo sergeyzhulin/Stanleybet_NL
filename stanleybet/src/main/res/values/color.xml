@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_blue">#317292</color>
+    <color name="light_green">#78B537</color>
+    <color name="light_gray">#ABABAB</color>
+
+    <color name="d_green">#4e9436</color>
+    <color name="d_yellow">#eed500</color>
+    <color name="d_yellow_dark">#cbb41b</color>
+    <color name="d_blue">#00849b</color>
+    <color name="d_blue_dark">#396273</color>
+    <color name="d_blue_menu_selected">#0c98b0</color>
+    <color name="d_blue_menu_unselected">#00849b</color>
+    <color name="d_blue_menu_divider">#017084</color>
+    <color name="d_green_tab_selected">#468b2f</color>
+    <color name="d_green_tab_unselected">@color/d_green_dark</color>
+    <color name="d_green_dark">#305c21</color>
+    <color name="d_orange">#f57f33</color>
+    <color name="d_orange_dark">#c16123</color>
+    <color name="d_purple">#652d86</color>
+    <color name="d_grey_font">#5e5e5e</color>
+    <color name="d_grey_seperators">@color/d_grey_selector</color>
+    <color name="d_grey_placeholder">#dfdfdf</color>
+    <color name="d_red">#b91618</color>
+    <color name="d_red_dark">#991113</color>
+    <color name="d_white_bg">#f0f0f0</color>
+    <color name="d_grey_selector">#e4e4e4</color>
+    <color name="d_blue_fb">#5771aa</color>
+    <color name="d_blue_fb_dark">#3d5188</color>
+    <color name="d_red_gplus">#dd4b39</color>
+    <color name="d_red_gplus_dark">#bf3128</color>
+
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <!-- add CC for transparency -->
+    <color name="transparent_blue">#CC33B5E5</color>
+    <color name="transparent_ab_item_pressed">#CCDCC532</color>
+</resources>

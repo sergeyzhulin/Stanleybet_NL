@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stanleybet</string>
+    <string name="dummy_button">Start Bet</string>
+    <string name="bet_slip">BS</string>
+    <string name="balance">150$</string>
+
+
+
+    <string-array name="menu_array_anonymous">
+        <item>Sign in / Login</item>
+        <item>HOME</item>
+        <item>LIVE BETTING</item>
+        <item>SPORTS BETTING</item>
+        <item>STATISTICS</item>
+        <item>PROMOTIONS</item>
+        <item>FAVORITES</item>
+        <item>SETTINGS</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="menu_array_logged_in">
+        <item>Stanleybetuser</item>
+        <item>DEPOSIT</item>
+        <item>FINANCIAL ACTIVITY</item>
+        <item>SPORTS BETTING</item>
+        <item>BETTING HISTORY</item>
+        <item>TRANSACTION HISTORY</item>
+        <item>PREFERENCES</item>
+        <item>LOG OUT</item>
+        <item></item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="app_not_available">Nothing to start</string>
+    <string name="sport_image_view_desc">Sport Event Image</string>
+    <string name="sport_title_name">Basketball</string>
+
+    <!--Sports betting-->
+    <string name="sport_betting_title">SPORT EVENTS</string>
+    <string name="sb_betting_featured">FEATURED</string>
+    <string name="sb_betting_favorites">FAVORITES</string>
+    <string name="sb_betting_today">TODAY</string>
+    <string name="sb_betting_next3h">NEXT 3H</string>
+
+    <!--User registration and login strings-->
+    <string name="sb_login_login_title">LOGIN</string>
+    <string name="sb_login_username_hint">Username</string>
+    <string name="sb_login_password_hint">Password</string>
+    <string name="sb_login_button_login">Log In</string>
+    <string name="sb_login_button_new_account">Create new account</string>
+    <string name="sb_login_button_recover_username">Recover username</string>
+    <string name="sb_login_button_recover_password">Recover password</string>
+
+    <string name="sb_logged_in_label">YOU ARE LOGGED IN</string>
+    <string name="sb_logged_in_button_deposit">Deposit</string>
+    <string name="sb_logged_in_button_continue">Continue</string>
+    <string name="sb_logged_in_balance_label">Balance</string>
+
+    <string name="sb_new_account_title">CREATE NEW ACCOUNT</string>
+    <string name="sb_new_account_button_next">Next</string>
+    <string name="sb_new_account_button_finish">Finish</string>
+    <string name="sb_new_account_input_name">First name</string>
+    <string name="sb_new_account_input_surname">Surname</string>
+    <string name="sb_new_account_input_birth">Date of Birth</string>
+    <string name="sb_new_account_input_email">Email</string>
+    <string name="sb_new_account_input_confirm_email">Confirm email</string>
+    <string name="sb_new_account_input_username">Username</string>
+    <string name="sb_new_account_input_password">Password</string>
+    <string name="sb_new_account_input_confirm_password">Confirm password</string>
+    <string name="sb_new_account_checkbox_show_password">Show password</string>
+
+    <string name="sb_new_account_input_citizenship">Citizenship</string>
+    <string name="sb_new_account_input_country_residence">Country of Residence</string>
+    <string name="sb_new_account_input_adress">Home Address</string>
+    <string name="sb_new_account_input_town">Town</string>
+    <string name="sb_new_account_input_country">Country</string>
+    <string name="sb_new_account_input_postal_code">Postal code</string>
+    <string name="sb_new_account_input_sequrity_question">Security Question</string>
+    <string name="sb_new_account_input_security_answer">Security Answer</string>
+
+    <string name="sb_new_account_photo_input">Identity</string>
+    <string name="sb_new_account_checkbox_agreement">Agreement to StanleyBet T&amp;C Communication information</string>
+    <string name="sb_new_account_checkbox_email">Email</string>
+    <string name="sb_new_account_checkbox_sms">SMS</string>
+    <string name="sb_new_account_checkbox_telephone">Telephone</string>
+    <string name="sb_new_account_checkbox_direct_mail">Direct Mail</string>
+    <string name="sb_new_account_checkbox_third_party">Third Party</string>
+    <string name="sb_new_account_agreement_text">Needed for Parcelable/SafeParcelable Creators to not get stripped. Needed for Parcelable/SafeParcelable Creators to not get stripped. Needed for Parcelable/SafeParcelable Creators to not get stripped. Needed for Parcelable/SafeParcelable Creators to not get stripped</string>
+
+    <string name="sb_recover_password_title">Rocever password</string>
+    <string name="sb_recover_password_label">Please enter your username to reset password</string>
+    <string name="sb_recover_password_button">Reset password</string>
+    <string name="sb_recover_password_input_hint">Username</string>
+
+    <string name="sb_recover_username_title">Rocever username</string>
+    <string name="sb_recover_username_label">Please enter your email to recover username</string>
+    <string name="sb_recover_username_button">Recover username</string>
+    <string name="sb_recover_username_input_hint">Email</string>
+
+    <!--Promotions strings-->
+    <string name="sb_promotions_title">Promotions</string>
+    <string name="sb_promotions_sample_text">Needed for Parcelable / SafeParcelable Creators to not get stripped. Needed for Parcelable / SafeParcelable Creators to not get stripped. Needed for Parcelable / SafeParcelable Creators to not get stripped. Needed for Parcelable / SafeParcelable Creators to not get stripped.</string>
+    <string name="sb_promotions_smaple_text_title">Password Needed for Parcelable</string>
+    <!--<string name="sb_promotions_">Log In</string>-->
+    <!--<string name="sb_promotions_">Create new account</string>-->
+    <!--<string name="sb_promotions_">Recover username</string>-->
+    <!--<string name="sb_promotions_">Recover password</string>-->
+
+</resources>

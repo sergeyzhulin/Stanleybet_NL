@@ -1,0 +1,60 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="lt.appcamp.stanleybet.activities"
+    tools:context="lt.appcamp.stanleybet.activities.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/sb_login_background_color"
+    android:padding="@dimen/margin_small">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/sb_promotions_rounded_list_item">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/promo_image"
+            android:scaleType="fitXY"
+            android:src="@drawable/promo_pic1"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingTop="1dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff22282c"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/promo_text"
+            android:textSize="18sp"
+            android:textColor="#ffe0d8d4"
+            android:text="@string/sb_promotions_sample_text"
+            android:padding="@dimen/margin_small"/>
+
+    </LinearLayout>
+
+</LinearLayout>

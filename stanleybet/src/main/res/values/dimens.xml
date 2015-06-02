@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_mid">12dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_macro">4dp</dimen>
+    <dimen name="actionbar_height">48dp</dimen>
+    <dimen name="actionbar_icon_size">48dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_micro">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium_small">16sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="text_larger">26sp</dimen>
+    <dimen name="text_xlarge">32sp</dimen> <!-- Was 30sp and 34sp -->
+    <dimen name="text_xxlarge">38sp</dimen>
+
+
+    <!-- Ration 1.5 for Object Logo image-->
+    <dimen name="list_image_width">108dp</dimen>
+    <dimen name="list_image_height">72dp</dimen>
+
+    <!--category icons size -->
+    <dimen name="category_ic_size">16dp</dimen>
+    <dimen name="category_ic_padding">4dp</dimen>
+
+	<integer name="google_play_services_version">4132500</integer>
+
+    <dimen name="border_margin">4dp</dimen>
+    <dimen name="seperator_margin">2dp</dimen>
+
+
+
+</resources>

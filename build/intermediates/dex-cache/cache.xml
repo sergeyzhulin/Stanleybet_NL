@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-65a63c71282463eac6b3995529387f816c923c1e.jar" />
+    </item>
+    <item
+        jar="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/exploded-aar/stanleybet/Volley/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="3f952e3b37c4a14edad121e2658b3353abf13aaf">
+        <dex dex="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/pre-dexed/debug/classes-b81a7ace8ed9d4b20d9e8a42ffe23a8b333d4889.jar" />
+    </item>
+    <item
+        jar="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/libs/libGoogleAnalyticsV2.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="6c48a1a1621e55c66fa6a381642916385c9dd781">
+        <dex dex="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/pre-dexed/debug/libGoogleAnalyticsV2-2eddaab02b30011d4aa1a363e3294d1309b219cb.jar" />
+    </item>
+    <item
+        jar="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/pre-dexed/debug/classes-3f560ddd2b9aa873465bbe411ef9d8676ef98162.jar" />
+    </item>
+    <item
+        jar="/Users/stasmanas/.gradle/caches/modules-2/files-2.1/de.greenrobot/greendao/1.3.7/dda08161d004c4df96938da6909f1c2b96cd33c8/greendao-1.3.7.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="dda08161d004c4df96938da6909f1c2b96cd33c8">
+        <dex dex="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/pre-dexed/debug/greendao-1.3.7-9340a1d13549df1409f11d49098c94f2050a8f15.jar" />
+    </item>
+    <item
+        jar="/Users/stasmanas/Projects/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-84ada7661166f1882a98ab786de7b86e21734532.jar" />
+    </item>
+    <item
+        jar="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/exploded-aar/stanleybet/viewpagerindicator/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="743000c98c4be6f9557baaf9922a7f90e6c00d0b">
+        <dex dex="/Users/stasmanas/Projects/Android/stanleybet/stanleybet/build/intermediates/pre-dexed/debug/classes-163d758ed0608ea76bab7077e877e34cce1fd7ff.jar" />
+    </item>
+
+</items>

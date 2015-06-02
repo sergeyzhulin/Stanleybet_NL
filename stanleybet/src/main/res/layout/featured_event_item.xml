@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lb_featured_event"
+    android:orientation="vertical"
+    tools:context="lt.appcamp.stanleybet.fragments.MainScreenFragment"
+    android:background="@color/sb_slide_top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ice hockey > Russia > KHL - 1 May 18:00"
+        android:id="@+id/textView2"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/match_team_home"
+        android:textSize="20sp"
+        android:text="Aavangard OMSK vs HC Donbass"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/first_bet"
+            android:text="1   1.77"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/sb_button_red"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_macro" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/second_bet"
+            android:text="     x     "
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/sb_button_red"
+            android:layout_marginRight="@dimen/margin_macro"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/third_bet"
+            android:text="2   5.50"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/sb_button_red"
+            android:layout_marginRight="@dimen/margin_small"
+            android:focusableInTouchMode="false"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="#2D3436"/>
+
+</LinearLayout>
